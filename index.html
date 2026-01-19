@@ -2,9 +2,51 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Sign-up Form </title>
+		<link rel="stylesheet" href="/assets/styles/styles.css">
+		<title>Sign-up Form | The Odin Project</title>
 	</head>
 	<body>
-		<h1>Sign-up Form</h1>
+		<div class="left-side">
+			<div class="img-brand"></div>
+		</div>
+		<div id="main">
+			<div class="top-paragraphs">
+				<p>
+					This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+				</p>
+				<p>
+					You <em>know</em> you want to.
+				</p>
+			</div>
+			<div class="sign-form">
+				<form>
+					<h2>Let's do this!</h2>
+					<p>
+						<label for="first-name">FIRST NAME</label>
+						<input type="text" id="first-name" placeholder="Thor">
+						<label for="last-name">LAST NAME</label>
+						<input type="text" id="last-name" placeholder="Odinson">
+					</p>
+					<p>
+						<label for="user-mail">EMAIL</label>
+						<input type="email" id="user-mail" placeholder="odinodinson@example.com">
+						<label for="user-phone">PHONE NUMBER</label>
+						<input type="number" id="user-phone" placeholder="+555-555-555">
+					</p>
+					<p>
+						<label for="user-password">PASSWORD</label>
+						<input type="password" id="user-password">
+						<label for="password-check">CONFIRM PASSWORD</label>
+						<input type="password" id="password-check">
+					</p>
+				</form>
+			</div>
+			<div class="main-footer">
+				<button class="btn submit-btn">Create Account</button>
+				<p>
+					Already have an account? <a href="#">Log in</a>
+				</p>
+			</div>
+		</div>
 	</body>
 </html>
