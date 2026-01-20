@@ -1,58 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="/assets/styles/styles.css">
-		<title>Sign-up Form | The Odin Project</title>
-	</head>
-	<body>
-		<div class="left-side">
-			<div class="img-brand">
-				<img id="img-logo" src="assets/imgs/odin-lined.png">
-				<span class="brand-name">ODIN</span>
-			</div>
-			<div class="left-side-footer">
-				Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a>
-			</div>
-		</div>
-		<div id="main">
-			<div class="top-paragraphs">
-				<p>
-					This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
-				</p>
-				<p>
-					You <em>know</em> you want to.
-				</p>
-			</div>
-			<div class="sign-form">
-				<form>
-					<h2>Let's do this!</h2>
-					<p>
-						<label for="first-name">FIRST NAME</label>
-						<input type="text" id="first-name" placeholder="Thor">
-						<label for="last-name">LAST NAME</label>
-						<input type="text" id="last-name" placeholder="Odinson">
-					</p>
-					<p>
-						<label for="user-mail">EMAIL</label>
-						<input type="email" id="user-mail" placeholder="odinodinson@example.com">
-						<label for="user-phone">PHONE NUMBER</label>
-						<input type="number" id="user-phone" placeholder="+555-555-555">
-					</p>
-					<p>
-						<label for="user-password">PASSWORD</label>
-						<input type="password" id="user-password" required>
-						<label for="password-check">CONFIRM PASSWORD</label>
-						<input type="password" id="password-check" required>
-					</p>
-				</form>
-			</div>
-			<div class="main-footer">
-				<button class="btn submit-btn">Create Account</button>
-				<p>
-					Already have an account? <a href="#">Log in</a>
-				</p>
-			</div>
-		</div>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/assets/styles/styles.css" />
+    <title>Sign-up Form | The Odin Project</title>
+  </head>
+  <body>
+    <div class="left-side">
+      <div class="img-brand">
+        <img id="img-logo" src="assets/imgs/odin-lined.png" />
+        <span class="brand-name">ODIN</span>
+      </div>
+      <div class="left-side-footer">
+        Photo by
+        <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+        <a href="https://unsplash.com/">Unsplash</a>
+      </div>
+    </div>
+    <div id="main">
+      <div class="top-paragraphs">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      <div class="sign-form">
+        <form>
+          <h2 id="form-title">Let's do this!</h2>
+          <div class="form-row">
+            <div class="form-column">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" placeholder="Thor" />
+            </div>
+            <div class="form-column">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" placeholder="Odinson" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-column">
+              <label for="user-mail">EMAIL</label>
+              <input
+                type="email"
+                id="user-mail"
+                placeholder="odinodinson@example.com"
+              />
+            </div>
+            <div class="form-column">
+              <label for="user-phone">PHONE NUMBER</label>
+              <input type="text" inputmode="numeric" id="user-phone" placeholder="+555-555-555" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-column">
+              <label for="user-password">PASSWORD</label>
+              <input type="password" id="user-password" required />
+            </div>
+            <div class="form-column">
+              <label for="password-check">CONFIRM PASSWORD</label>
+              <input type="password" id="password-check" required />
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="main-footer">
+        <button class="btn submit-btn">Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </div>
+  </body>
 </html>
